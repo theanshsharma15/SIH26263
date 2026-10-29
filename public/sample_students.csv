@@ -1,0 +1,9 @@
+apaarId,fullName,dateOfBirth,gender,email,phone,courseCode,admissionYear,seatCategory
+9845-2134-7712,Rohit Sharma,2004-05-12,Male,rohit.sharma@student.ac.in,9876543210,BTECH-CSE,2024,General
+9845-2134-9988,Deepika Padmanabhan,2004-11-20,Female,deepika.p@student.ac.in,9811223344,BTECH-CSE,2024,OBC
+,Aarav K. Mehta,2003-08-14,Male,aarav.mehta@student.ac.in,9822334455,BTECH-CSE,2024,General
+8812-4432-1099,Priya Verma,2004-09-15,Female,priya.verma@student.ac.in,9833445566,BTECH-CSE,2024,General
+7765-3321-9988,Kavita R. Nair,2003-12-01,Female,kavita.nair@student.ac.in,9844556677,BTECH-EE,2024,SC
+9845-2134-7712,Sameer Malhotra,2004-01-22,Male,sameer.m@student.ac.in,9855667788,BTECH-CSE,2024,General
+6612-9901-4433,Arjun Patel,2004-03-30,Male,arjun.patel@student.ac.in,9866778899,BTECH-EE,2024,EWS
+5543-1122-3344,Tanya Sen,2003-07-19,Female,tanya.sen@student.ac.in,9877889900,BTECH-MECH,2024,ST

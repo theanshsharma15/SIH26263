@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary-navy: #0B2A5B;
+    --accent-saffron: #FF9933;
+    --gov-green: #138808;
+  }
+
+  body {
+    @apply bg-[#F4F6FA] text-slate-800 font-sans;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  *:focus-visible {
+    outline: 2px solid #FF9933 !important;
+    outline-offset: 2px !important;
+  }
+}
+
+/* High Contrast Mode for GIGW / WCAG 2.1 AA Compliance */
+.high-contrast-mode {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+}
+
+.high-contrast-mode body,
+.high-contrast-mode div,
+.high-contrast-mode main,
+.high-contrast-mode nav,
+.high-contrast-mode header,
+.high-contrast-mode footer,
+.high-contrast-mode section {
+  background-color: #000000 !important;
+  color: #FFFFFF !important;
+  border-color: #FFFF00 !important;
+}
+
+.high-contrast-mode a,
+.high-contrast-mode button {
+  color: #FFFF00 !important;
+}
+
+.high-contrast-mode .bg-gov-navy-900,
+.high-contrast-mode .bg-gov-navy-800,
+.high-contrast-mode .bg-gov-navy-700,
+.high-contrast-mode .bg-gov-navy-600,
+.high-contrast-mode .bg-gov-navy-500 {
+  background-color: #000000 !important;
+  border: 1px solid #FFFF00 !important;
+}
+
+.high-contrast-mode .text-slate-500,
+.high-contrast-mode .text-slate-600,
+.high-contrast-mode .text-slate-700,
+.high-contrast-mode .text-slate-400 {
+  color: #00FFFF !important;
+}
+
+.high-contrast-mode .border,
+.high-contrast-mode .border-slate-200,
+.high-contrast-mode .border-slate-100 {
+  border-color: #FFFF00 !important;
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
